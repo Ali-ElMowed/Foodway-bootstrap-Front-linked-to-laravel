@@ -29,6 +29,7 @@ fetch('http://127.0.0.1:8000/api/restaurants',
             <div class="col-md-4 mb-5">
                     <div class="card h-100">
                         <div class="card-body">
+                            <img src="./assets/images/resto.png" class="card-img-top">
                             <h2 class="card-title">${restaurant_name}</h2>
                             <p class="card-text">${restaurant_description}</p>
                         </div>
